@@ -12,18 +12,20 @@
 */
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.box-shadow-default {
+.head-contain {
+    /* max-width: 1600px; */
+    margin: 0 5%;
+    padding: 0 20px;
+}
+
+.box-shadow-down {
     -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
 }
 
-.head-contain {
-    max-width: 1600px;
-    margin: 0 auto;
-}
