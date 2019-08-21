@@ -1,0 +1,68 @@
+header {
+    padding: 30px 20px;
+    background: red;
+}
+header a {
+    color: #4C44C1;
+    text-decoration: none;
+}
+
+/* Whenever you use floats always put :after clearfix on the parent. */
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header .logo {
+    float: left;
+    margin-right: 28px;
+}
+
+header .logo img {
+    width: 40px;
+}
+
+header .menu {
+    float: left;
+    position: relative;
+    top: 12px;
+}
+
+header .menu a{
+    float: left;
+    text-transform: uppercase;
+}
+
+header .header-buttons {
+    float: right;
+    position: relative;
+    top: 12px;
+}
+
+header .header-buttons .blue-btn {
+    background: #4C44C1;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+ 
+}
+header .header-buttons .orange-btn {
+    background: #FEA83B;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
+
+
+/* 
+    Colors:
+    #FEA83B orange
+    #6066F2 lightblue
+    #B286F8 purple
+    #4C44C1 blue
+    #E6CDF9 lightpurple
+*/
