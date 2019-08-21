@@ -1,13 +1,17 @@
 header {
     padding: 30px 20px;
-    background: red;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
+
 header a {
     color: #4C44C1;
     text-decoration: none;
 }
 
 /* Whenever you use floats always put :after clearfix on the parent. */
+
 header:after {
     content: "";
     display: table;
@@ -29,34 +33,42 @@ header .menu {
     top: 12px;
 }
 
-header .menu a{
+header .menu a {
     float: left;
     text-transform: uppercase;
+    margin-right: 30px;
 }
 
 header .header-buttons {
     float: right;
+    /* position: relative;
+    top: 12px; */
+}
+
+header .header-buttons .blue-btn {
+    background: #6066f2;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
     position: relative;
     top: 12px;
 }
 
-header .header-buttons .blue-btn {
-    background: #4C44C1;
-    padding: 10px 40px;
-    color: white;
-    border-radius: 35px;
-    text-transform: uppercase;
- 
+header .header-buttons .blue-btn .fas {
+    margin-left: 15px;
 }
+
 header .header-buttons .orange-btn {
     background: #FEA83B;
-    padding: 10px 40px;
+    padding: 14px 46px;
     color: white;
     border-radius: 35px;
     text-transform: uppercase;
+    position: relative;
+    top: 12px;
+    margin-left: 15px;
 }
-
-
 
 /* 
     Colors:

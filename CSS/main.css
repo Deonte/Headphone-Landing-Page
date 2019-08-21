@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 @import "/CSS/reset.css";
 @import "/CSS/landing-page/header.css";
-
+@import "/CSS/landing-page/hero.css";
 /* 
     Colors:
     #FEA83B orange
@@ -10,3 +10,20 @@
     #4C44C1 blue
     #E6CDF9 lightpurple
 */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box-shadow-default {
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+.head-contain {
+    max-width: 1600px;
+    margin: 0 auto;
+}
