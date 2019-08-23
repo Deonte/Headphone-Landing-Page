@@ -1,0 +1,176 @@
+/* 
+    Colors:
+    #FEA83B orange
+    #6066F2 lightblue
+    #B286F8 purple
+    #4C44C1 blue
+    #E6CDF9 lightpurple
+*/
+
+#color-collection {
+    padding: 0 0 100px;
+}
+
+#color-collection::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#color-collection .left-side {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+#color-collection .left-side img {
+    width: 80%;
+    float: left;
+}
+
+#color-collection .right-side {
+    width: 40%;
+    float: left;
+}
+
+#color-collection .right-side .swatch-area {
+    background: white;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+
+#color-collection .right-side .swatch-area .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(1) {
+    background: #56ab2f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(2) {
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(3) {
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 0;
+}
+
+#color-collection .right-side .info-box {
+    background: white;
+    padding: 40px 20px;
+    display: inline-block;
+    max-width: 290px;
+    width: 100%;
+    text-align: center;
+}
+
+#color-collection .right-side .info-box h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#color-collection .right-side .info-box h2 span {
+    display: block;
+}
+
+#color-collection .right-side .info-box h2 .orange {
+    font-weight: 300;
+    color: #FEA83B;
+}
+
+#color-collection .right-side .info-box h2 .blue {
+    font-weight: 700;
+    color: #6066F2
+}
+
+#color-collection .right-side .info-box h2 .purple {
+    font-weight: 300;
+    color: #B286F8;
+}
+
+#color-collection .right-side .info-box p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9399a7;
+    margin: 40px 0 20px 0;
+}
+
+#color-collection .right-side .info-box a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #6066F2;
+    margin: 40px 0 20px 0;
+    display: block;
+}
+
+#color-collection .right-side .info-box .line {
+    height: 2px;
+    width: 50px;
+    background: #B286F8;
+    display: inline-block;
+}
+
+#color-collection .right-side .color-slider {
+    width: 20px;
+    height: 640px;
+    border-radius: 10px;
+    background: #C02425;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F0CB35, #C02425);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F0CB35, #C02425);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+
+#color-collection .right-side .color-slider .picker {
+    width: 20px;
+    height: 20px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background: #FEA83B;
+    box-sizing: content-box;
+    position: absolute;
+    top: 200px;
+    left: -10px;
+}
+
+#color-collecetion .right-side:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#color-collection .right-side .col-1 {
+    float: left;
+    width: 80%;
+}
+
+#color-collection .right-side .col-2 {
+    float: right;
+    width: 20%;
+}

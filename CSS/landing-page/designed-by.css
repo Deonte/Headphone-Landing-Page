@@ -3,21 +3,21 @@
     top: -200px;
 }
 
-#designed-by .design-container  {
+#designed-by .design-container {
     position: relative;
-    background:white;
+    background: white;
     overflow: hidden;
     border-radius: 5px;
 }
 
-#designed-by .design-container .bg-container{
+#designed-by .design-container .bg-container {
     position: relative;
     background: #6066f2;
     overflow: hidden;
     padding: 45px;
 }
 
-#designed-by .design-container:after{
+#designed-by .design-container:after {
     content: "";
     display: table;
     clear: both;
@@ -105,13 +105,40 @@
     width: 60%;
     background: white;
     float: left;
+    position: relative;
 }
 
-#designed-by .design-container .icon-section .icon-box{
+#designed-by .design-container .icon-section .refresh-circle {
+    position: absolute;
+    top: 40%;
+    left:45%;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+}
+
+#designed-by .design-container .icon-section .refresh-circle .fas{
+    position: relative;
+    top:20px;
+    left: 20px;
+    color: #fea83b;
+    font-size: 2.5rem;
+}
+
+#designed-by .design-container .icon-section .icon-box {
     width: 50%;
     height: 228px;
-    background:red;
+    background: white;
     float: left;
     text-align: center;
-    
+    border: 1px solid #f4f4f4;
+    color: #6066f2;
+    font-size: 1.3rem;
+}
+
+#designed-by .design-container .icon-section .icon-box .fas, #designed-by .design-container .icon-section .icon-box .far {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 60px;
 }
